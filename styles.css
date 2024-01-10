@@ -1,0 +1,68 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the main container */
+.container {
+    margin-left: 20.5rem; /* Setting left margin */
+    margin-right: 20.5rem; /* Setting right margin */
+    display: flex; /* Using flexbox */
+    justify-content: center; /* Centering content horizontally */
+    flex-direction: column; /* Stacking flex items vertically */
+    height: 800px; /* Setting height */
+    width: 800px; /* Setting width */
+}
+
+/* Styling for the first image */
+.image-1 {
+    margin-top: 10px; /* Setting top margin */
+    border: 2px solid black; /* Adding a black border */
+}
+
+/* Styling for the second image */
+.image-2 {
+    margin-top: 10px; /* Setting top margin */
+    border: 2px solid black; /* Adding a black border */
+}
+
+/* Styling for the third image container */
+.image-3 {
+    display: flex; /* Using flexbox */
+    align-items: center; /* Centering vertically */
+    justify-content: center; /* Centering horizontally */
+}
+
+/* Styling for the image container */
+.image-container {
+    margin-top: 20px; /* Setting top margin */
+}
+
+/* Styling for the top half of an image */
+.top-half {
+    height: 160px; /* Setting height */
+    width: 100%; /* Setting width */
+    overflow: hidden; /* Hiding overflow content */
+    object-fit: cover; /* Scaling the image to cover the container */
+    object-position: top; /* Aligning the image to the top */
+}
+
+/* Styling for the bottom half of an image */
+.end-half {
+    height: 175px; /* Setting height */
+    width: 100%; /* Setting width */
+    overflow: hidden; /* Hiding overflow content */
+    object-fit: cover; /* Scaling the image to cover the container */
+    object-position: bottom; /* Aligning the image to the bottom */
+}
+
+/* Styling for a full-size image */
+.full-image {
+    width: 500px; /* Setting width */
+    height: 300px; /* Setting height */
+    /* Commented out overflow and object-fit properties */
+    /* overflow: hidden; */
+    /* object-fit: cover; */
+    object-position: center; /* Aligning the image to the center */
+}
